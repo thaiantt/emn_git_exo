@@ -8,7 +8,16 @@ def ar2rom(val):
         return 'II'
     elif val == 3:
         return 'III'
-
+    elif val == 4:
+        return 'IV'
+    elif val == 5:
+        return 'V'
+    elif val == 10:
+        return 'X'
+    elif val == 20:
+        return 'XX'
+    elif val == 21:
+        return 'XXI'
 
 class Tests(unittest.TestCase):
     def test_1_to_i(self):
