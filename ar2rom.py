@@ -3,11 +3,11 @@ import unittest
 
 def ar2rom(val):
     if val == 1:
-        return 'i'
+        return 'I'
     elif val == 2:
-        return 'ii'
+        return 'II'
     elif val == 3:
-        return 'iii'
+        return 'III'
 
 
 class Tests(unittest.TestCase):
