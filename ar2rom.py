@@ -2,11 +2,11 @@ import unittest
 
 conversion_map = (
     ('L', 50)
-    ('x', 10),
-    ('ix', 9),
-    ('v', 5),
-    ('iv', 4),
-    ('i', 1))
+    ('X', 10),
+    ('IX', 9),
+    ('V', 5),
+    ('IV', 4),
+    ('I', 1))
 
 
 def ar2rom(val):
